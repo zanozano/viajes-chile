@@ -1,0 +1,12 @@
+/* Navbar */
+#navbar {
+    background-color: rgba(00, 0, 0, .2);
+
+}
+#navbar img {
+    width: 2em;
+}
+#navbar h2 {
+    margin: 0;
+    font-size: 1em;
+}
