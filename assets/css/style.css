@@ -4,8 +4,16 @@ body {
 
 /* Navbar */
 #navbar {
-    background-color: rgba(00, 0, 0, .1);
     font-weight: 300;
+    color: white;
+}
+.navbar-dark {
+    background-color: rgba(0, 0, 0, .1) !important;
+    transition: all 1s ease-in-out;
+}
+.bg-new {
+    background-color: #21C7E1 !important;
+    transition: all 1s ease-in-out;
 }
 
 #navbar img {

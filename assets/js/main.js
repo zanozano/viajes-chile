@@ -14,7 +14,7 @@ $(document).ready(function () {
         var smoothScroll = this.hash;
 
         $("html").animate({
-                scrollTop: $(smoothScroll).offset().top - 56,
+                scrollTop: $(smoothScroll).offset().top - 65,
             },
             800,
         );
@@ -27,4 +27,12 @@ $('[data-toggle="tooltip"]').tooltip()
 /* Carousel */
 $('.carousel').carousel({
     interval: 3000
-  })
+})
+/* Background inverse */
+$(window).scroll(function () {
+    if ($("#navbar").offset().top > 65) {
+        $("#navbar").addClass("bg-new");
+    } else {
+        $("#navbar").removeClass("bg-new");
+    }
+});
