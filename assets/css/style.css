@@ -1,12 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Navbar */
 #navbar {
-    background-color: rgba(00, 0, 0, .2);
-
+    background-color: rgba(00, 0, 0, .1);
+    font-weight: 300;
 }
+
 #navbar img {
     width: 2em;
 }
+
 #navbar h2 {
     margin: 0;
     font-size: 1em;
+    font-weight: 400;
+}
+
+/* Main */
+main {
+    background-color: black;
+    color: white;
+}
+
+/* Quienes somos */
+#quienes-somos {}
+
+#quienes-somos h2 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+#quienes-somos hr {
+    color: #21C7E1;
+    height: 2px;
+    background-color: #21C7E1;
+}
+
+#quienes-somos .tag-p {
+    background-color: #21C7E1;
+}
+
+/* Destacados */
+#destacados {}
+
+#destacados h2 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+#destacados hr {
+    color: #21C7E1;
+    height: 2px;
+    background-color: #21C7E1;
+}
+#destacados p {
+
+}
+#destacados .card-body {
+    background-color: #21C7E1;
+    border: 1 solid #21C7E1;;
 }
