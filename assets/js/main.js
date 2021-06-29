@@ -1,5 +1,14 @@
+/* Scroll to top */
+$(".go-to-top").click(function (event) {
+    $("html").animate({
+            scrollTop: 0,
+        },
+        800,
+    );
+});
+/* Smooth Scroll */
 $(document).ready(function () {
-    $(".nav-link").click(function (event) {
+    $(".link-smooth").click(function (event) {
         event.preventDefault();
 
         var smoothScroll = this.hash;
@@ -11,4 +20,11 @@ $(document).ready(function () {
         );
     });
 });
+/* Scroll Top */
+/* Tooltip */
 $('[data-toggle="tooltip"]').tooltip()
+
+/* Carousel */
+$('.carousel').carousel({
+    interval: 3000
+  })

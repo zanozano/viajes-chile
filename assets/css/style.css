@@ -25,7 +25,10 @@ main {
 }
 
 /* Quienes somos */
-#quienes-somos {}
+#quienes-somos {
+    color: white;
+
+}
 
 #quienes-somos h2 {
     margin: 0;
@@ -39,12 +42,29 @@ main {
     background-color: #21C7E1;
 }
 
+#quienes-somos p {
+    font-size: 1em;
+    font-weight: 300;
+}
+
 #quienes-somos .tag-p {
     background-color: #21C7E1;
 }
 
+@media screen and (max-width:957px) {
+    #quienes-somos h2 {
+        font-size: 2em;
+    }
+
+    #quienes-somos .tag-p:nth-of-type(1) {
+        margin-bottom: 40px;
+    }
+}
+
 /* Destacados */
-#destacados {}
+#destacados {
+    color: white;
+}
 
 #destacados h2 {
     margin: 0;
@@ -58,7 +78,10 @@ main {
     background-color: #21C7E1;
 }
 
-#destacados p {}
+#destacados p {
+    font-size: 1em;
+    font-weight: 300;
+}
 
 #destacados .card-body {
     background-color: #21C7E1;
@@ -66,8 +89,16 @@ main {
     ;
 }
 
+@media screen and (max-width:957px) {
+    #destacados h2 {
+        font-size: 2em;
+    }
+}
+
 /* Contacto */
-#contacto {}
+#contacto {
+    color: white;
+}
 
 #contacto h2 {
     margin: 0;
@@ -81,6 +112,12 @@ main {
     background-color: #21C7E1;
 }
 
+@media screen and (max-width:957px) {
+    #contacto h2 {
+        font-size: 2em;
+    }
+}
+
 /* Footer */
 #footer {
     background-color: #21C7E1;
@@ -89,4 +126,12 @@ main {
 
 #footer h3 {
     margin: 0;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer i {
+    color: white;
 }
