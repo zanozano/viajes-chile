@@ -57,10 +57,36 @@ main {
     height: 2px;
     background-color: #21C7E1;
 }
-#destacados p {
 
-}
+#destacados p {}
+
 #destacados .card-body {
     background-color: #21C7E1;
-    border: 1 solid #21C7E1;;
+    border: 1 solid #21C7E1;
+    ;
+}
+
+/* Contacto */
+#contacto {}
+
+#contacto h2 {
+    margin: 0;
+    font-size: 2.8em;
+    font-weight: 400;
+}
+
+#contacto hr {
+    color: #21C7E1;
+    height: 2px;
+    background-color: #21C7E1;
+}
+
+/* Footer */
+#footer {
+    background-color: #21C7E1;
+    color: white;
+}
+
+#footer h3 {
+    margin: 0;
 }
