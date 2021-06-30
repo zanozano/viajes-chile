@@ -39,4 +39,4 @@ $(window).scroll(function () {
 /* Toggle Content */
 $('.card-title').on('click', function () {
     $('.card-text').toggle();
-  });
+});
