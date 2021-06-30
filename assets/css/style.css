@@ -16,9 +16,11 @@ body {
 .bg-new {
     background-color: #21C7E1 !important;
     transition: all 1s ease-in-out;
-    box-shadow: 0 4px 20px 5px rgba(255, 255, 255, .1);
+    box-shadow: 0 4px 20px 5px rgba(0, 0, 0, .1);
 }
+
 .navbar-dark .navbar-nav .nav-link {
+    font-size: 1.2em;
     font-weight: 400;
 }
 
@@ -97,10 +99,13 @@ main {
     font-weight: 300;
 }
 
+#destacados h4 {
+    cursor: pointer;
+}
+
 #destacados .card-body {
     background-color: #21C7E1;
     border: 1 solid #21C7E1;
-    ;
 }
 
 @media screen and (max-width:957px) {

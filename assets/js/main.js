@@ -36,3 +36,7 @@ $(window).scroll(function () {
         $("#navbar").removeClass("bg-new");
     }
 });
+/* Toggle Content */
+$('.card-title').on('click', function () {
+    $('.card-text').toggle();
+  });
