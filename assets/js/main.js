@@ -28,9 +28,9 @@ $('[data-toggle="tooltip"]').tooltip()
 $('.carousel').carousel({
     interval: 3000
 })
-/* Background inverse */
+/* Background Topbar inverse */
 $(window).scroll(function () {
-    if ($("#navbar").offset().top > 65) {
+    if ($("#navbar").offset().top > 66) {
         $("#navbar").addClass("bg-new");
     } else {
         $("#navbar").removeClass("bg-new");

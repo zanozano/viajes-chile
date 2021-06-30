@@ -7,13 +7,19 @@ body {
     font-weight: 300;
     color: white;
 }
+
 .navbar-dark {
     background-color: rgba(0, 0, 0, .1) !important;
     transition: all 1s ease-in-out;
 }
+
 .bg-new {
     background-color: #21C7E1 !important;
     transition: all 1s ease-in-out;
+    box-shadow: 0 4px 20px 5px rgba(255, 255, 255, .1);
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 400;
 }
 
 #navbar img {
