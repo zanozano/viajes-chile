@@ -15,8 +15,8 @@ body {
 
 .bg-new {
     background-color: #21C7E1 !important;
-    transition: all 1s ease-in-out;
     box-shadow: 0 4px 20px 5px rgba(0, 0, 0, .1);
+    transition: all 1s ease-in-out;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -29,9 +29,9 @@ body {
 }
 
 #navbar h2 {
-    margin: 0;
     font-size: 1em;
     font-weight: 400;
+    margin: 0;
 }
 
 /* Main */
@@ -47,15 +47,15 @@ main {
 }
 
 #quienes-somos h2 {
-    margin: 0;
     font-size: 2.8em;
     font-weight: 400;
+    margin: 0;
 }
 
 #quienes-somos hr {
+    background-color: #21C7E1;
     color: #21C7E1;
     height: 2px;
-    background-color: #21C7E1;
 }
 
 #quienes-somos p {
@@ -83,15 +83,15 @@ main {
 }
 
 #destacados h2 {
-    margin: 0;
     font-size: 2.8em;
     font-weight: 400;
+    margin: 0;
 }
 
 #destacados hr {
+    background-color: #21C7E1;
     color: #21C7E1;
     height: 2px;
-    background-color: #21C7E1;
 }
 
 #destacados p {
@@ -120,15 +120,15 @@ main {
 }
 
 #contacto h2 {
-    margin: 0;
     font-size: 2.8em;
     font-weight: 400;
+    margin: 0;
 }
 
 #contacto hr {
+    background-color: #21C7E1;
     color: #21C7E1;
     height: 2px;
-    background-color: #21C7E1;
 }
 
 @media screen and (max-width:957px) {
@@ -144,10 +144,10 @@ main {
 }
 
 #footer h3 {
-    margin: 0;
-    padding: 0;
     font-size: 2em;
     font-weight: 600;
+    margin: 0;
+    padding: 0;
 }
 
 #footer a {
